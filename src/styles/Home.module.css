@@ -1,0 +1,122 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 100vw; */
+    background: linear-gradient(230deg, #44C5FC 2.09%, #FDDCD1 93.89%);  
+    gap: 20px;  
+}
+
+.logoSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.title{
+    font-size: 64px;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 8px;
+    padding: 20px;
+    border-radius: 16px;
+    background: linear-gradient(179deg, #FFF 0.54%, rgba(255, 255, 255, 0.00) 107.49%);
+    border: 7px solid rgb(255, 255, 255);
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.city{
+    font-size: 32px;
+    font-weight: 800;
+    color: #44c5fc;
+}
+
+.searchBar{
+    padding: 16px;
+    font-size: 12px;
+}
+
+.temp{
+    width: max-content;
+    font-size: 64px;
+    align-self: center;
+    color: #7cbfc2;
+}
+
+.tempSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.windRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: white;
+    padding: 5px 24px;
+    border-radius: 40px;
+}
+
+.humidityRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: white;
+    padding: 5px 24px;
+    border-radius: 40px;
+}
+
+.bottomSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.forecast{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 5px;
+    height: max-content;
+}
+
+.one{
+    background-color: #FFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forecastHeader{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.updateWeather{
+    font-size: 12px;
+    color: #00000052;
+}
