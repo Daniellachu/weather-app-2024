@@ -65,6 +65,7 @@ export default function Home() {
           src={"/asset/logo.svg"}
           width={64}
           height={64}
+          alt="graphic"
         />
         <p  className={styles.title}>Raincheck</p>
       </div>
@@ -76,6 +77,7 @@ export default function Home() {
             src={"/asset/search.svg"}
             height={24}
             width={24}
+            alt="graphic"
           />
         </div>
         <div className={styles.tempSection}>
@@ -84,6 +86,7 @@ export default function Home() {
             src={"/asset/rainy.svg"}
             height={700}
             width={200}
+            alt="graphic"
           />
         </div>
         <div className={styles.bottomSection}>
@@ -92,6 +95,7 @@ export default function Home() {
               src={"/asset/windy-icon.svg"}
               height={48}
               width={48}
+              alt="graphic"
             />
             <p className={styles.windSpeed}>{windSpeed} km/hr</p>
           </div>
@@ -100,6 +104,7 @@ export default function Home() {
               src={"/asset/humidity-icon.svg"}
               height={48}
               width={48}
+              alt="graphic"
             />
             <p className={styles.humidty}>{humidity}</p>
           </div>
@@ -110,6 +115,7 @@ export default function Home() {
               src={"/asset/feels-like-icon.svg"}
               height={48}
               width={48}
+              alt="graphic"
             />
             <p className={styles.windSpeed}>{feelsLike}</p>
           </div>
@@ -118,6 +124,7 @@ export default function Home() {
               src={"/asset/pressure-icon.svg"}
               height={48}
               width={48}
+              alt="graphic"
             />
             <p className={styles.humidty}>{pressure}</p>
           </div>
@@ -129,6 +136,7 @@ export default function Home() {
             src={"/asset/cloudy-sun.svg"}
             height={20}
             width={70}
+            alt="graphic"
             />
             <p>Rainy</p>
             <p>4.18°c</p>
@@ -138,6 +146,7 @@ export default function Home() {
             src={"/asset/cloudy-sun.svg"}
             height={20}
             width={70}
+            alt="graphic"
             />
             <p>Clearing</p>
             <p>7°C</p>
@@ -147,6 +156,7 @@ export default function Home() {
             src={"/asset/sunny.svg"}
             height={20}
             width={60}
+            alt="graphic"
             />
             <p>Sunny</p>
             <p>7°C</p>
@@ -156,6 +166,7 @@ export default function Home() {
             src={"/asset/rainy.svg"}
             height={20}
             width={70}
+            alt="graphic"
             />
             <p>Rainy</p>
             <p>9°C</p>
@@ -165,6 +176,7 @@ export default function Home() {
             src={"/asset/rainy.svg"}
             height={20}
             width={70}
+            alt="graphic"
             />
             <p>Rainy</p>
             <p>9°C</p>
@@ -174,6 +186,7 @@ export default function Home() {
             src={"/asset/snowy.svg"}
             height={20}
             width={70}
+            alt="graphic"
             />
             <p>Snowy</p>
             <p>-7°C</p>
