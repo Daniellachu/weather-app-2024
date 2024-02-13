@@ -1,7 +1,7 @@
-#: Midterm
+# Midterm
 
-## 2: Created by
+## Created by
 - Daniella Dela Cruz
 
-##: Description
+## Description
 - This project takes daily weather data from an api called open weather map, this project displays the current weather conditions in vancouver
